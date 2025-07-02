@@ -1,1 +1,0 @@
-# w72231_Programowanie_Kol_SL03

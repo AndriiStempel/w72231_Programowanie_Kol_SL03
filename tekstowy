@@ -1,0 +1,4 @@
+git pull, git merge, git commit
+git pull - to polecenie pobiera zmiany
+git merge - to polecenie służy do łączenia zmian
+git commit - to polecenie służy do zapisywania zmian

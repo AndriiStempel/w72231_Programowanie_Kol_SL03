@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kolokwium</title>
+</head>
+<body>
+  <script>
+    class Ksiazka {
+      constructor(tytul, rokWydania, imieAutora, nazwiskoAutora) {
+        this.tytul = tytul;
+        this.rokWydania = rokWydania;
+        this.imieAutora = imieAutora;
+        this.nazwiskoAutora = nazwiskoAutora;
+      }
+
+      pelneImieNazwisko() {
+        return `${this.imieAutora} ${this.nazwiskoAutora}`;
+      }
+    }
+
+    const ListaKsiazek = [
+      new Ksiazka('Harry Potter', 1998, "Joanna", "Rowling"),
+      new Ksiazka("Panda", 1996, "Robert", "Harlej"),
+      new Ksiazka("Sponge Bob", 1994, "Albert", "Robert"),
+      new Ksiazka("Alicja", 1992, "John", "Wall")
+    ];
+
+    const wybranyRok = 1998;
+
+    ListaKsiazek.forEach(ksiazka => {
+      if (ksiazka.rokWydania === wybranyRok) {
+        console.log(`Tytuł: ${ksiazka.tytul}, Autor: ${ksiazka.pelneImieNazwisko()}`);
+      }
+    });
+  </script>
+</body>
+</html>

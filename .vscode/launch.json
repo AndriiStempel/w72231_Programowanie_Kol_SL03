@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "d:\\Kolokwium\\w72231_Programowanie_Kol_SL03\\index.html"
+        }
+    ]
+}
